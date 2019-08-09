@@ -3,7 +3,7 @@ resource "aws_instance" "web1" {
   instance = ""
   subnet_id = ""
   tags {
-    "Name" = "Web1"
+    "Name" = "Webserver1"
   }
 }
 
