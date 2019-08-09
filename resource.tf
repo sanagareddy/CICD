@@ -1,5 +1,5 @@
 resource "aws_instance" "web1" {
-  ami = ""
+  ami = "ami-0b99c7725b9484f9e"
   instance = ""
   subnet_id = ""
   tags {
