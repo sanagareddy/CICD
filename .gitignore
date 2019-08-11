@@ -1,0 +1,3 @@
+#git ignoe=re file to ignore tfstate file
+
+terraform.tfstate
