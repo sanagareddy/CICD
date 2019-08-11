@@ -18,7 +18,7 @@ resource "aws_subnet" "pub_sub1" {
   vpc_id = "${aws_vpc.VPC1.id}"
 }
 
-resource "aws_subnet" "pvt_subz1" {
+resource "aws_subnet" "pvt_subs1" {
 	availability_zone = "ap-south-1b"
 	cidr_block = "10.0.0.64/26"
 	vpc_id = "${aws_vpc.VPC1.id}"
